@@ -1,0 +1,17 @@
+{
+  "name": "enculture-platform",
+  "version": "0.1.0",
+  "description": "Enculture — AI-powered HR intelligence platform",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'Select a package to run: npm run dev --workspace=packages/culture-intelligence'",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write ."
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "keywords": ["hr-tech", "ai", "culture", "competency", "360-feedback"],
+  "author": "Enculture <aditya@enculture.ai>",
+  "license": "UNLICENSED"
+}
