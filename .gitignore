@@ -1,0 +1,7 @@
+# Claude Code local config and session memory — not for the shared repo
+.claude/
+memory/
+
+# OS
+.DS_Store
+Thumbs.db
